@@ -41,7 +41,7 @@
         android:fontFamily="@font/poppins"/>
 
     <EditText
-        android:id="@+id/contentText"
+        android:id="@+id/contentEditText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:hint="Enter the description"
