@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Notesmad4" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Base.Theme.Notesmad4" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="android:statusBarColor">@color/orange</item>
+
+    </style>
+    <style name="Theme.Notesmad4" parent="Base.Theme.Notesmad4" />
 </resources>
