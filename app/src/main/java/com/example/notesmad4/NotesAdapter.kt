@@ -31,4 +31,9 @@ class NotesAdapter (private var note: List<Note>, context: Context):
         holder.contentTextView.text = note.content
 
     }
+    fun refresData(newNote: List<Note>){
+        note = newNote
+        notifyDataSetChanged()
+
+    }
 }
