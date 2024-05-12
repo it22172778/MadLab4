@@ -1,5 +1,6 @@
 package com.example.notesmad4
 
+import android.content.ContentValues
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -46,5 +47,15 @@ class NotesAdapter (private var note: List<Note>, context: Context):
         notifyDataSetChanged()
 
     }
+    fun updateNote(note: Note){
+       // val db = writableDatabase
+        val values = ContentValues().apply {
+
+
+        }
+    }
+
+
+
 
 }
