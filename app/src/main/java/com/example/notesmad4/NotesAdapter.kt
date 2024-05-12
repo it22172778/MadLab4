@@ -48,7 +48,7 @@ class NotesAdapter (private var note: List<Note>, context: Context):
 
     }
     fun updateNote(note: Note){
-       // val db = writableDatabase
+        //val db = writableDatabase
         val values = ContentValues().apply {
 
 
