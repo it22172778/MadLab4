@@ -1,6 +1,7 @@
 package com.example.notesmad4
 
 import android.content.Context
+import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
@@ -16,7 +17,8 @@ class NotesAdapter (private var note: List<Note>, context: Context):
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoteViewHolder {
-        TODO("Not yet implemented")
+       val view  = LayoutInflater.from(parent.context).inflate(R.layout.note_item,parent,false)
+        return NoteViewHolder(view)
     }
 
     override fun getItemCount(): Int {
@@ -24,6 +26,6 @@ class NotesAdapter (private var note: List<Note>, context: Context):
     }
 
     override fun onBindViewHolder(holder: NoteViewHolder, position: Int) {
-        TODO("Not yet implemented")
+
     }
 }
